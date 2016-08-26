@@ -8,11 +8,12 @@
         mc:Ignorable="d"
         Title="Resize This Shit" Height="122" Width="251" ScrollViewer.VerticalScrollBarVisibility="Disabled" ResizeMode="NoResize">
     <Grid Background="Black">
-        <TextBox x:Name="tWidth" HorizontalAlignment="Left" Height="21" Margin="17,10,0,0" TextWrapping="Wrap" Text="1280" VerticalAlignment="Top" Width="51" ToolTip="Desired Width" HorizontalContentAlignment="Center" MaxLines="1" MaxLength="5"/>
-        <TextBox x:Name="tHeight" HorizontalAlignment="Left" Height="21" Margin="69,10,0,0" TextWrapping="Wrap" Text="720" VerticalAlignment="Top" Width="51" ToolTip="Desired Height" HorizontalContentAlignment="Center" MaxLines="1" MaxLength="6"/>
+        <TextBox x:Name="tWidth" HorizontalAlignment="Left" Height="21" Margin="17,10,0,0" TextWrapping="Wrap" Text="1280" VerticalAlignment="Top" Width="51" ToolTip="Desired Width" HorizontalContentAlignment="Center" MaxLines="1" MaxLength="5" VerticalContentAlignment="Center"/>
+        <TextBox x:Name="tHeight" HorizontalAlignment="Left" Height="21" Margin="69,10,0,0" TextWrapping="Wrap" Text="720" VerticalAlignment="Top" Width="51" ToolTip="Desired Height" HorizontalContentAlignment="Center" MaxLines="1" MaxLength="6" VerticalContentAlignment="Center"/>
         <ComboBox x:Name="tNList" HorizontalAlignment="Left" Margin="17,50,0,0" VerticalAlignment="Top" Width="103" Height="21" ToolTip="Window to Resize"/>
         <Button x:Name="bBorderless" Content="Borderless" HorizontalAlignment="Left" Margin="136,8,0,0" VerticalAlignment="Top" Width="81" Height="25" ToolTip="Remove Borders"/>
         <Button x:Name="bBorder" Content="Border" HorizontalAlignment="Left" Margin="136,48,0,0" VerticalAlignment="Top" Width="81" Height="25" ToolTip="Restore Borders"/>
+        <CheckBox x:Name="coordbox" HorizontalAlignment="Left" Margin="16,33,0,0" VerticalAlignment="Top" ToolTip="Check to keep position" IsChecked="True"/>
 
 
     </Grid>
